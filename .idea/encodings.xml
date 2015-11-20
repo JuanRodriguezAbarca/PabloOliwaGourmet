@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="windows-1252">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/drivers/IEDriverServer.exe" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/drivers/chromedriver.exe" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/test/java/CukeRunner.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/test/java/stepDefinitions/workShopStepDefinition/WorkShopStepDefinitions.java" charset="UTF-8" />
+    <file url="PROJECT" charset="windows-1252" />
+  </component>
+</project>

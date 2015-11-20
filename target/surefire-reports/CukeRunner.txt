@@ -1,0 +1,46 @@
+-------------------------------------------------------------------------------
+Test set: CukeRunner
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 15.96 sec <<< FAILURE! - in CukeRunner
+Then I make the test fail to grab the screenshot(| pato |)  Time elapsed: 0.005 sec  <<< FAILURE!
+junit.framework.AssertionFailedError: Making fail to take the ScreenShot
+	at junit.framework.Assert.fail(Assert.java:57)
+	at junit.framework.Assert.assertTrue(Assert.java:22)
+	at stepDefinitions.workShopStepDefinition.WorkShopStepDefinitions.iMakeTheTestFailToGrabTheScreenshot(WorkShopStepDefinitions.java:44)
+	at ?.Then I make the test fail to grab the screenshot(workShopFW/FWtester.feature:12)
+
+| pato |  Time elapsed: 0.005 sec  <<< FAILURE!
+junit.framework.AssertionFailedError: Making fail to take the ScreenShot
+	at junit.framework.Assert.fail(Assert.java:57)
+	at junit.framework.Assert.assertTrue(Assert.java:22)
+	at stepDefinitions.workShopStepDefinition.WorkShopStepDefinitions.iMakeTheTestFailToGrabTheScreenshot(WorkShopStepDefinitions.java:44)
+	at ?.Then I make the test fail to grab the screenshot(workShopFW/FWtester.feature:12)
+
+Then I make the test fail to grab the screenshot(| dog |)  Time elapsed: 0 sec  <<< FAILURE!
+junit.framework.AssertionFailedError: Making fail to take the ScreenShot
+	at junit.framework.Assert.fail(Assert.java:57)
+	at junit.framework.Assert.assertTrue(Assert.java:22)
+	at stepDefinitions.workShopStepDefinition.WorkShopStepDefinitions.iMakeTheTestFailToGrabTheScreenshot(WorkShopStepDefinitions.java:44)
+	at ?.Then I make the test fail to grab the screenshot(workShopFW/FWtester.feature:12)
+
+| dog |  Time elapsed: 0 sec  <<< FAILURE!
+junit.framework.AssertionFailedError: Making fail to take the ScreenShot
+	at junit.framework.Assert.fail(Assert.java:57)
+	at junit.framework.Assert.assertTrue(Assert.java:22)
+	at stepDefinitions.workShopStepDefinition.WorkShopStepDefinitions.iMakeTheTestFailToGrabTheScreenshot(WorkShopStepDefinitions.java:44)
+	at ?.Then I make the test fail to grab the screenshot(workShopFW/FWtester.feature:12)
+
+Then I make the test fail to grab the screenshot(| azul |)  Time elapsed: 0 sec  <<< FAILURE!
+junit.framework.AssertionFailedError: Making fail to take the ScreenShot
+	at junit.framework.Assert.fail(Assert.java:57)
+	at junit.framework.Assert.assertTrue(Assert.java:22)
+	at stepDefinitions.workShopStepDefinition.WorkShopStepDefinitions.iMakeTheTestFailToGrabTheScreenshot(WorkShopStepDefinitions.java:44)
+	at ?.Then I make the test fail to grab the screenshot(workShopFW/FWtester.feature:12)
+
+| azul |  Time elapsed: 0.001 sec  <<< FAILURE!
+junit.framework.AssertionFailedError: Making fail to take the ScreenShot
+	at junit.framework.Assert.fail(Assert.java:57)
+	at junit.framework.Assert.assertTrue(Assert.java:22)
+	at stepDefinitions.workShopStepDefinition.WorkShopStepDefinitions.iMakeTheTestFailToGrabTheScreenshot(WorkShopStepDefinitions.java:44)
+	at ?.Then I make the test fail to grab the screenshot(workShopFW/FWtester.feature:12)
+
