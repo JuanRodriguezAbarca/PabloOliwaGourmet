@@ -32,7 +32,7 @@ public class WorkShopStepDefinitions extends PageModel{
 
     }
 
-    @When("^I search for ([^\"]*)$")
+    @When("^I search for '([^\"]*)'$")
     public void iSearchForQuery(String query){
         wiki.searchTextBox().sendKeys(query);
         wiki.searchButton().click();

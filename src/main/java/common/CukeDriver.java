@@ -38,7 +38,7 @@ public class CukeDriver {
     private static WebDriver selectTheBrowser() {
         String theBrowser = System.getProperty("browser");
 
-        switch (theBrowser.toLowerCase()) {
+        switch (theBrowser.toLowerCase().trim()) {
             case "firefox":
                 return new FirefoxDriver();
             case "chrome":
