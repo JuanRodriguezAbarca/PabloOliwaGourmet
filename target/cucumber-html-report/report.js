@@ -13,7 +13,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 6263889936,
+  "duration": 3577468019,
   "status": "passed"
 });
 formatter.scenario({
@@ -33,11 +33,11 @@ formatter.match({
   "location": "WorkShopStepDefinitions.iNavigateToGoogleHomePage()"
 });
 formatter.result({
-  "duration": 2137087414,
+  "duration": 2732143455,
   "status": "passed"
 });
 formatter.after({
-  "duration": 772884,
+  "duration": 622948,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -101,7 +101,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 524330,
+  "duration": 349404,
   "status": "passed"
 });
 formatter.scenario({
@@ -140,38 +140,38 @@ formatter.match({
   "location": "WorkShopStepDefinitions.iNavigateToWikipediaHomePage()"
 });
 formatter.result({
-  "duration": 910687265,
+  "duration": 1098223214,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "\u0027pato\u0027",
-      "offset": 13
+      "val": "pato",
+      "offset": 14
     }
   ],
   "location": "WorkShopStepDefinitions.iSearchForQuery(String)"
 });
 formatter.result({
-  "duration": 1898522818,
+  "duration": 184095456,
   "status": "passed"
 });
 formatter.match({
   "location": "WorkShopStepDefinitions.iMakeTheTestFailToGrabTheScreenshot()"
 });
 formatter.result({
-  "duration": 32655691,
+  "duration": 2003183908,
   "error_message": "junit.framework.AssertionFailedError: Making fail to take the ScreenShot\r\n\tat junit.framework.Assert.fail(Assert.java:57)\r\n\tat junit.framework.Assert.assertTrue(Assert.java:22)\r\n\tat stepDefinitions.workShopStepDefinition.WorkShopStepDefinitions.iMakeTheTestFailToGrabTheScreenshot(WorkShopStepDefinitions.java:44)\r\n\tat ✽.Then I make the test fail to grab the screenshot(workShopFW/FWtester.feature:12)\r\n",
   "status": "failed"
 });
-formatter.write("https://en.wikipedia.org/wiki/Special:Search?search\u003d%27pato%27\u0026go\u003dGo");
+formatter.write("https://en.wikipedia.org/wiki/Pato");
 formatter.embedding("image/png", "embedded0.png");
 formatter.after({
-  "duration": 746950522,
+  "duration": 1023526109,
   "status": "passed"
 });
 formatter.before({
-  "duration": 352528,
+  "duration": 354759,
   "status": "passed"
 });
 formatter.scenario({
@@ -210,38 +210,38 @@ formatter.match({
   "location": "WorkShopStepDefinitions.iNavigateToWikipediaHomePage()"
 });
 formatter.result({
-  "duration": 223327355,
+  "duration": 154054273,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "\u0027dog\u0027",
-      "offset": 13
+      "val": "dog",
+      "offset": 14
     }
   ],
   "location": "WorkShopStepDefinitions.iSearchForQuery(String)"
 });
 formatter.result({
-  "duration": 1024618054,
+  "duration": 139277104,
   "status": "passed"
 });
 formatter.match({
   "location": "WorkShopStepDefinitions.iMakeTheTestFailToGrabTheScreenshot()"
 });
 formatter.result({
-  "duration": 27209357,
+  "duration": 1740629561,
   "error_message": "junit.framework.AssertionFailedError: Making fail to take the ScreenShot\r\n\tat junit.framework.Assert.fail(Assert.java:57)\r\n\tat junit.framework.Assert.assertTrue(Assert.java:22)\r\n\tat stepDefinitions.workShopStepDefinition.WorkShopStepDefinitions.iMakeTheTestFailToGrabTheScreenshot(WorkShopStepDefinitions.java:44)\r\n\tat ✽.Then I make the test fail to grab the screenshot(workShopFW/FWtester.feature:12)\r\n",
   "status": "failed"
 });
-formatter.write("https://en.wikipedia.org/wiki/Special:Search?search\u003d%27dog%27\u0026go\u003dGo");
+formatter.write("https://en.wikipedia.org/wiki/Dog");
 formatter.embedding("image/png", "embedded1.png");
 formatter.after({
-  "duration": 728058146,
+  "duration": 907639013,
   "status": "passed"
 });
 formatter.before({
-  "duration": 396706,
+  "duration": 682744,
   "status": "passed"
 });
 formatter.scenario({
@@ -280,34 +280,34 @@ formatter.match({
   "location": "WorkShopStepDefinitions.iNavigateToWikipediaHomePage()"
 });
 formatter.result({
-  "duration": 225613878,
+  "duration": 238133976,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "\u0027azul\u0027",
-      "offset": 13
+      "val": "azul",
+      "offset": 14
     }
   ],
   "location": "WorkShopStepDefinitions.iSearchForQuery(String)"
 });
 formatter.result({
-  "duration": 894911415,
+  "duration": 133251106,
   "status": "passed"
 });
 formatter.match({
   "location": "WorkShopStepDefinitions.iMakeTheTestFailToGrabTheScreenshot()"
 });
 formatter.result({
-  "duration": 22538586,
+  "duration": 1001295875,
   "error_message": "junit.framework.AssertionFailedError: Making fail to take the ScreenShot\r\n\tat junit.framework.Assert.fail(Assert.java:57)\r\n\tat junit.framework.Assert.assertTrue(Assert.java:22)\r\n\tat stepDefinitions.workShopStepDefinition.WorkShopStepDefinitions.iMakeTheTestFailToGrabTheScreenshot(WorkShopStepDefinitions.java:44)\r\n\tat ✽.Then I make the test fail to grab the screenshot(workShopFW/FWtester.feature:12)\r\n",
   "status": "failed"
 });
-formatter.write("https://en.wikipedia.org/wiki/Special:Search?search\u003d%27azul%27\u0026go\u003dGo");
+formatter.write("https://en.wikipedia.org/wiki/Azul");
 formatter.embedding("image/png", "embedded2.png");
 formatter.after({
-  "duration": 620930701,
+  "duration": 894116219,
   "status": "passed"
 });
 });

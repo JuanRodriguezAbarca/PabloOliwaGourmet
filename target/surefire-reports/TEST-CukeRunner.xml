@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="CukeRunner" time="0.016" tests="14" errors="0" skipped="0" failures="6">
+<testsuite name="CukeRunner" time="0.044" tests="14" errors="0" skipped="0" failures="6">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_20\jre\bin"/>
     <property name="java.vm.version" value="25.20-b23"/>
+    <property name="browser" value="chrome"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
@@ -43,7 +44,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_20\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -Dbrowser=chrome"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -62,10 +63,10 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="Given I navigate to google home page" classname="Scenario: Checking if different browser are being loaded" time="0.001"/>
-  <testcase name="Scenario: Checking if different browser are being loaded" classname="Scenario: Checking if different browser are being loaded" time="0.003"/>
+  <testcase name="Given I navigate to google home page" classname="Scenario: Checking if different browser are being loaded" time="0.009"/>
+  <testcase name="Scenario: Checking if different browser are being loaded" classname="Scenario: Checking if different browser are being loaded" time="0.021"/>
   <testcase name="Given I navigate to wikipedia home page" classname="| pato |" time="0"/>
-  <testcase name="When I search for &apos;pato&apos;" classname="| pato |" time="0.001"/>
+  <testcase name="When I search for &apos;pato&apos;" classname="| pato |" time="0"/>
   <testcase name="Then I make the test fail to grab the screenshot" classname="| pato |" time="0.005">
     <failure message="Making fail to take the ScreenShot" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Making fail to take the ScreenShot
 	at junit.framework.Assert.fail(Assert.java:57)
@@ -100,7 +101,7 @@
 	at ✽.Then I make the test fail to grab the screenshot(workShopFW/FWtester.feature:12)
 </failure>
   </testcase>
-  <testcase name="Given I navigate to wikipedia home page" classname="| azul |" time="0"/>
+  <testcase name="Given I navigate to wikipedia home page" classname="| azul |" time="0.004"/>
   <testcase name="When I search for &apos;azul&apos;" classname="| azul |" time="0"/>
   <testcase name="Then I make the test fail to grab the screenshot" classname="| azul |" time="0">
     <failure message="Making fail to take the ScreenShot" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Making fail to take the ScreenShot
@@ -110,7 +111,7 @@
 	at ✽.Then I make the test fail to grab the screenshot(workShopFW/FWtester.feature:12)
 </failure>
   </testcase>
-  <testcase name="| azul |" classname="| azul |" time="0.001">
+  <testcase name="| azul |" classname="| azul |" time="0">
     <failure message="Making fail to take the ScreenShot" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Making fail to take the ScreenShot
 	at junit.framework.Assert.fail(Assert.java:57)
 	at junit.framework.Assert.assertTrue(Assert.java:22)

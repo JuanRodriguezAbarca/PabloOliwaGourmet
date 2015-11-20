@@ -18,7 +18,7 @@ public class CukeDriver {
 
     private static final Logger loger = Logger.getLogger(CukeDriver.class);
 
-    private static WebDriver driver;
+    private static WebDriver driver = null;
 
     public static WebDriver getTheDriver() {
         if (driver == null) {
@@ -37,7 +37,7 @@ public class CukeDriver {
 
     private static WebDriver selectTheBrowser() {
         String theBrowser = System.getProperty("browser");
-
+        loger.info("Browser selected: "+theBrowser);
         switch (theBrowser.toLowerCase().trim()) {
             case "firefox":
                 return new FirefoxDriver();
