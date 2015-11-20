@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="25a410a6-13b9-48e5-9be8-df17fe8b1f35" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/common/CukeDriver.class" afterPath="$PROJECT_DIR$/target/classes/common/CukeDriver.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/stepDefinitions/workShopStepDefinition/WorkShopStepDefinitions.class" afterPath="$PROJECT_DIR$/target/test-classes/stepDefinitions/workShopStepDefinition/WorkShopStepDefinitions.class" />
-      <change type="MODIFICATION" beforePath="D:\BDDoliwaFW\PabloSite\target\cucumber-html-report\embedded0.png" afterPath="D:\BDDoliwaFW\PabloSite\target\cucumber-html-report\embedded0.png" />
-      <change type="MODIFICATION" beforePath="D:\BDDoliwaFW\PabloSite\target\cucumber-html-report\embedded1.png" afterPath="D:\BDDoliwaFW\PabloSite\target\cucumber-html-report\embedded1.png" />
-      <change type="MODIFICATION" beforePath="D:\BDDoliwaFW\PabloSite\target\cucumber-html-report\embedded2.png" afterPath="D:\BDDoliwaFW\PabloSite\target\cucumber-html-report\embedded2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/common/CukeDriver.java" afterPath="$PROJECT_DIR$/src/main/java/common/CukeDriver.java" />
-      <change type="MODIFICATION" beforePath="D:\BDDoliwaFW\PabloSite\target\surefire-reports\CukeRunner.txt" afterPath="D:\BDDoliwaFW\PabloSite\target\surefire-reports\CukeRunner.txt" />
-      <change type="MODIFICATION" beforePath="D:\BDDoliwaFW\PabloSite\target\surefire-reports\TEST-CukeRunner.xml" afterPath="D:\BDDoliwaFW\PabloSite\target\surefire-reports\TEST-CukeRunner.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/cucumber.json" afterPath="$PROJECT_DIR$/target/cucumber.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/cucumber-html-report/report.js" afterPath="$PROJECT_DIR$/target/cucumber-html-report/report.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    <list default="true" id="25a410a6-13b9-48e5-9be8-df17fe8b1f35" name="Default" comment="Last update changing the CukeDriver.class">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PabloSite.iws" />
@@ -121,8 +110,8 @@
       <file leaf-file-name="CukeDriver.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/common/CukeDriver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.80969477">
-              <caret line="39" column="50" selection-start-line="39" selection-start-column="50" selection-end-line="39" selection-end-column="50" />
+            <state vertical-scroll-proportion="0.70736086">
+              <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -464,7 +453,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.0" />
@@ -694,7 +683,13 @@
       <option name="project" value="LOCAL" />
       <updated>1448030538993</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Last update changing the CukeDriver.class">
+      <created>1448032098901</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1448032098901</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -709,9 +704,9 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36078006" sideWeight="0.49786097" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36078006" sideWeight="0.49786097" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24973261" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24973261" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -740,7 +735,8 @@
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="false" />
     <MESSAGE value="Adding testSourceDirectory in pom.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding testSourceDirectory in pom.xml" />
+    <MESSAGE value="Last update changing the CukeDriver.class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Last update changing the CukeDriver.class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -971,8 +967,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/common/CukeDriver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.80969477">
-          <caret line="39" column="50" selection-start-line="39" selection-start-column="50" selection-end-line="39" selection-end-column="50" />
+        <state vertical-scroll-proportion="0.70736086">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
