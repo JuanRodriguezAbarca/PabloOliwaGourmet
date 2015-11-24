@@ -1,15 +1,15 @@
 -------------------------------------------------------------------------------
 Test set: CukeRunner
 -------------------------------------------------------------------------------
-Tests run: 14, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 16.097 sec <<< FAILURE! - in CukeRunner
-Then I make the test fail to grab the screenshot(| pato |)  Time elapsed: 0.005 sec  <<< FAILURE!
+Tests run: 14, Failures: 4, Errors: 2, Skipped: 0, Time elapsed: 17.024 sec <<< FAILURE! - in CukeRunner
+Then I make the test fail to grab the screenshot(| pato |)  Time elapsed: 0.004 sec  <<< FAILURE!
 junit.framework.AssertionFailedError: Making fail to take the ScreenShot
 	at junit.framework.Assert.fail(Assert.java:57)
 	at junit.framework.Assert.assertTrue(Assert.java:22)
 	at stepDefinitions.workShopStepDefinition.WorkShopStepDefinitions.iMakeTheTestFailToGrabTheScreenshot(WorkShopStepDefinitions.java:44)
 	at ?.Then I make the test fail to grab the screenshot(workShopFW/FWtester.feature:12)
 
-| pato |  Time elapsed: 0.005 sec  <<< FAILURE!
+| pato |  Time elapsed: 0.004 sec  <<< FAILURE!
 junit.framework.AssertionFailedError: Making fail to take the ScreenShot
 	at junit.framework.Assert.fail(Assert.java:57)
 	at junit.framework.Assert.assertTrue(Assert.java:22)
@@ -30,17 +30,53 @@ junit.framework.AssertionFailedError: Making fail to take the ScreenShot
 	at stepDefinitions.workShopStepDefinition.WorkShopStepDefinitions.iMakeTheTestFailToGrabTheScreenshot(WorkShopStepDefinitions.java:44)
 	at ?.Then I make the test fail to grab the screenshot(workShopFW/FWtester.feature:12)
 
-Then I make the test fail to grab the screenshot(| azul |)  Time elapsed: 0 sec  <<< FAILURE!
-junit.framework.AssertionFailedError: Making fail to take the ScreenShot
-	at junit.framework.Assert.fail(Assert.java:57)
-	at junit.framework.Assert.assertTrue(Assert.java:22)
+Then I make the test fail to grab the screenshot(| azul |)  Time elapsed: 0.004 sec  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: Unable to find element with id == firstHeading (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 316 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.1', revision: 'd80083d8f7b0b0319976ef9712f7a2b531abaceb', time: '2015-10-08 14:16:53'
+System info: host: 'EPPLKRAW0119', ip: '192.168.0.17', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_20'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=true, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:29773/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: ab354042-e401-4616-b913-9dee2bec04e6
+*** Element info: {Using=id, value=firstHeading}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:403)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:345)
+	at pageObjects.WikipediaPageObject.titleSearchedItem(WikipediaPageObject.java:21)
 	at stepDefinitions.workShopStepDefinition.WorkShopStepDefinitions.iMakeTheTestFailToGrabTheScreenshot(WorkShopStepDefinitions.java:44)
 	at ?.Then I make the test fail to grab the screenshot(workShopFW/FWtester.feature:12)
 
-| azul |  Time elapsed: 0 sec  <<< FAILURE!
-junit.framework.AssertionFailedError: Making fail to take the ScreenShot
-	at junit.framework.Assert.fail(Assert.java:57)
-	at junit.framework.Assert.assertTrue(Assert.java:22)
+| azul |  Time elapsed: 0.005 sec  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: Unable to find element with id == firstHeading (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 316 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.1', revision: 'd80083d8f7b0b0319976ef9712f7a2b531abaceb', time: '2015-10-08 14:16:53'
+System info: host: 'EPPLKRAW0119', ip: '192.168.0.17', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_20'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=true, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:29773/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: ab354042-e401-4616-b913-9dee2bec04e6
+*** Element info: {Using=id, value=firstHeading}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:403)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:345)
+	at pageObjects.WikipediaPageObject.titleSearchedItem(WikipediaPageObject.java:21)
 	at stepDefinitions.workShopStepDefinition.WorkShopStepDefinitions.iMakeTheTestFailToGrabTheScreenshot(WorkShopStepDefinitions.java:44)
 	at ?.Then I make the test fail to grab the screenshot(workShopFW/FWtester.feature:12)
 

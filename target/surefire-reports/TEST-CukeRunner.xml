@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="CukeRunner" time="0.044" tests="14" errors="0" skipped="0" failures="6">
+<testsuite name="CukeRunner" time="0.023" tests="14" errors="2" skipped="0" failures="4">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_20\jre\bin"/>
     <property name="java.vm.version" value="25.20-b23"/>
-    <property name="browser" value="chrome"/>
+    <property name="browser" value="ie"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
@@ -28,7 +28,7 @@
     <property name="os.name" value="Windows 7"/>
     <property name="classworlds.conf" value="C:\Program Files\Maven\apache-maven-3.2.1\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_20\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\iis express\PHP\v5.5;C:\oracle\product\11.2.0\dbhome_1\bin;C:\oracle\app\oracle\product\11.2.0\server\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jdk1.8.0_20\bin;C:\Program Files\Maven\apache-maven-3.2.1\bin;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\SlikSvn\bin;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_20\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\iis express\PHP\v5.5;C:\oracle\product\11.2.0\dbhome_1\bin;C:\oracle\app\oracle\product\11.2.0\server\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jdk1.8.0_20\bin;C:\Program Files\Maven\apache-maven-3.2.1\bin;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\SlikSvn\bin;D:\SoftwareInstalled\Android\android-sdk\tools;D:\SoftwareInstalled\Android\android-sdk\platform-tools;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -44,7 +44,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_20\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -Dbrowser=chrome"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -Dbrowser=ie"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -63,11 +63,11 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="Given I navigate to google home page" classname="Scenario: Checking if different browser are being loaded" time="0.009"/>
-  <testcase name="Scenario: Checking if different browser are being loaded" classname="Scenario: Checking if different browser are being loaded" time="0.021"/>
+  <testcase name="Given I navigate to google home page" classname="Scenario: Checking if different browser are being loaded" time="0.002"/>
+  <testcase name="Scenario: Checking if different browser are being loaded" classname="Scenario: Checking if different browser are being loaded" time="0.004"/>
   <testcase name="Given I navigate to wikipedia home page" classname="| pato |" time="0"/>
   <testcase name="When I search for &apos;pato&apos;" classname="| pato |" time="0"/>
-  <testcase name="Then I make the test fail to grab the screenshot" classname="| pato |" time="0.005">
+  <testcase name="Then I make the test fail to grab the screenshot" classname="| pato |" time="0.004">
     <failure message="Making fail to take the ScreenShot" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Making fail to take the ScreenShot
 	at junit.framework.Assert.fail(Assert.java:57)
 	at junit.framework.Assert.assertTrue(Assert.java:22)
@@ -75,7 +75,7 @@
 	at ✽.Then I make the test fail to grab the screenshot(workShopFW/FWtester.feature:12)
 </failure>
   </testcase>
-  <testcase name="| pato |" classname="| pato |" time="0.005">
+  <testcase name="| pato |" classname="| pato |" time="0.004">
     <failure message="Making fail to take the ScreenShot" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Making fail to take the ScreenShot
 	at junit.framework.Assert.fail(Assert.java:57)
 	at junit.framework.Assert.assertTrue(Assert.java:22)
@@ -101,22 +101,58 @@
 	at ✽.Then I make the test fail to grab the screenshot(workShopFW/FWtester.feature:12)
 </failure>
   </testcase>
-  <testcase name="Given I navigate to wikipedia home page" classname="| azul |" time="0.004"/>
+  <testcase name="Given I navigate to wikipedia home page" classname="| azul |" time="0"/>
   <testcase name="When I search for &apos;azul&apos;" classname="| azul |" time="0"/>
-  <testcase name="Then I make the test fail to grab the screenshot" classname="| azul |" time="0">
-    <failure message="Making fail to take the ScreenShot" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Making fail to take the ScreenShot
-	at junit.framework.Assert.fail(Assert.java:57)
-	at junit.framework.Assert.assertTrue(Assert.java:22)
+  <testcase name="Then I make the test fail to grab the screenshot" classname="| azul |" time="0.004">
+    <error message="Unable to find element with id == firstHeading (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 316 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.48.1&apos;, revision: &apos;d80083d8f7b0b0319976ef9712f7a2b531abaceb&apos;, time: &apos;2015-10-08 14:16:53&apos;&#10;System info: host: &apos;EPPLKRAW0119&apos;, ip: &apos;192.168.0.17&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_20&apos;&#10;Driver info: org.openqa.selenium.ie.InternetExplorerDriver&#10;Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=true, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:29773/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]&#10;Session ID: ab354042-e401-4616-b913-9dee2bec04e6&#10;*** Element info: {Using=id, value=firstHeading}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to find element with id == firstHeading (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 316 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.1', revision: 'd80083d8f7b0b0319976ef9712f7a2b531abaceb', time: '2015-10-08 14:16:53'
+System info: host: 'EPPLKRAW0119', ip: '192.168.0.17', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_20'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=true, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:29773/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: ab354042-e401-4616-b913-9dee2bec04e6
+*** Element info: {Using=id, value=firstHeading}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:403)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:345)
+	at pageObjects.WikipediaPageObject.titleSearchedItem(WikipediaPageObject.java:21)
 	at stepDefinitions.workShopStepDefinition.WorkShopStepDefinitions.iMakeTheTestFailToGrabTheScreenshot(WorkShopStepDefinitions.java:44)
 	at ✽.Then I make the test fail to grab the screenshot(workShopFW/FWtester.feature:12)
-</failure>
+</error>
   </testcase>
-  <testcase name="| azul |" classname="| azul |" time="0">
-    <failure message="Making fail to take the ScreenShot" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Making fail to take the ScreenShot
-	at junit.framework.Assert.fail(Assert.java:57)
-	at junit.framework.Assert.assertTrue(Assert.java:22)
+  <testcase name="| azul |" classname="| azul |" time="0.005">
+    <error message="Unable to find element with id == firstHeading (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 316 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.48.1&apos;, revision: &apos;d80083d8f7b0b0319976ef9712f7a2b531abaceb&apos;, time: &apos;2015-10-08 14:16:53&apos;&#10;System info: host: &apos;EPPLKRAW0119&apos;, ip: &apos;192.168.0.17&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_20&apos;&#10;Driver info: org.openqa.selenium.ie.InternetExplorerDriver&#10;Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=true, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:29773/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]&#10;Session ID: ab354042-e401-4616-b913-9dee2bec04e6&#10;*** Element info: {Using=id, value=firstHeading}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to find element with id == firstHeading (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 316 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.1', revision: 'd80083d8f7b0b0319976ef9712f7a2b531abaceb', time: '2015-10-08 14:16:53'
+System info: host: 'EPPLKRAW0119', ip: '192.168.0.17', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_20'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=true, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:29773/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: ab354042-e401-4616-b913-9dee2bec04e6
+*** Element info: {Using=id, value=firstHeading}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:403)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:345)
+	at pageObjects.WikipediaPageObject.titleSearchedItem(WikipediaPageObject.java:21)
 	at stepDefinitions.workShopStepDefinition.WorkShopStepDefinitions.iMakeTheTestFailToGrabTheScreenshot(WorkShopStepDefinitions.java:44)
 	at ✽.Then I make the test fail to grab the screenshot(workShopFW/FWtester.feature:12)
-</failure>
+</error>
   </testcase>
 </testsuite>

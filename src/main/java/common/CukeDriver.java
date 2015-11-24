@@ -47,6 +47,7 @@ public class CukeDriver {
             case "ie":
                 DesiredCapabilities caps = DesiredCapabilities.internetExplorer();
                 caps.setCapability("ignoreZoomSetting", true);
+                caps.setCapability("ignoreProtectedModeSettings", true);
                 return new InternetExplorerDriver(caps);
             default:
                 throw new ExceptionInInitializerError("Browser selected '" + theBrowser + "' is not recognized");

@@ -13,7 +13,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 3577468019,
+  "duration": 3737114099,
   "status": "passed"
 });
 formatter.scenario({
@@ -33,11 +33,11 @@ formatter.match({
   "location": "WorkShopStepDefinitions.iNavigateToGoogleHomePage()"
 });
 formatter.result({
-  "duration": 2732143455,
+  "duration": 1491496713,
   "status": "passed"
 });
 formatter.after({
-  "duration": 622948,
+  "duration": 654631,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -101,7 +101,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 349404,
+  "duration": 538610,
   "status": "passed"
 });
 formatter.scenario({
@@ -140,7 +140,7 @@ formatter.match({
   "location": "WorkShopStepDefinitions.iNavigateToWikipediaHomePage()"
 });
 formatter.result({
-  "duration": 1098223214,
+  "duration": 638259458,
   "status": "passed"
 });
 formatter.match({
@@ -153,25 +153,25 @@ formatter.match({
   "location": "WorkShopStepDefinitions.iSearchForQuery(String)"
 });
 formatter.result({
-  "duration": 184095456,
+  "duration": 1840597566,
   "status": "passed"
 });
 formatter.match({
   "location": "WorkShopStepDefinitions.iMakeTheTestFailToGrabTheScreenshot()"
 });
 formatter.result({
-  "duration": 2003183908,
+  "duration": 145716763,
   "error_message": "junit.framework.AssertionFailedError: Making fail to take the ScreenShot\r\n\tat junit.framework.Assert.fail(Assert.java:57)\r\n\tat junit.framework.Assert.assertTrue(Assert.java:22)\r\n\tat stepDefinitions.workShopStepDefinition.WorkShopStepDefinitions.iMakeTheTestFailToGrabTheScreenshot(WorkShopStepDefinitions.java:44)\r\n\tat ✽.Then I make the test fail to grab the screenshot(workShopFW/FWtester.feature:12)\r\n",
   "status": "failed"
 });
 formatter.write("https://en.wikipedia.org/wiki/Pato");
 formatter.embedding("image/png", "embedded0.png");
 formatter.after({
-  "duration": 1023526109,
+  "duration": 1152016304,
   "status": "passed"
 });
 formatter.before({
-  "duration": 354759,
+  "duration": 406523,
   "status": "passed"
 });
 formatter.scenario({
@@ -210,7 +210,7 @@ formatter.match({
   "location": "WorkShopStepDefinitions.iNavigateToWikipediaHomePage()"
 });
 formatter.result({
-  "duration": 154054273,
+  "duration": 461802257,
   "status": "passed"
 });
 formatter.match({
@@ -223,25 +223,25 @@ formatter.match({
   "location": "WorkShopStepDefinitions.iSearchForQuery(String)"
 });
 formatter.result({
-  "duration": 139277104,
+  "duration": 2662451801,
   "status": "passed"
 });
 formatter.match({
   "location": "WorkShopStepDefinitions.iMakeTheTestFailToGrabTheScreenshot()"
 });
 formatter.result({
-  "duration": 1740629561,
+  "duration": 163514963,
   "error_message": "junit.framework.AssertionFailedError: Making fail to take the ScreenShot\r\n\tat junit.framework.Assert.fail(Assert.java:57)\r\n\tat junit.framework.Assert.assertTrue(Assert.java:22)\r\n\tat stepDefinitions.workShopStepDefinition.WorkShopStepDefinitions.iMakeTheTestFailToGrabTheScreenshot(WorkShopStepDefinitions.java:44)\r\n\tat ✽.Then I make the test fail to grab the screenshot(workShopFW/FWtester.feature:12)\r\n",
   "status": "failed"
 });
 formatter.write("https://en.wikipedia.org/wiki/Dog");
 formatter.embedding("image/png", "embedded1.png");
 formatter.after({
-  "duration": 907639013,
+  "duration": 1548568758,
   "status": "passed"
 });
 formatter.before({
-  "duration": 682744,
+  "duration": 229813,
   "status": "passed"
 });
 formatter.scenario({
@@ -280,7 +280,7 @@ formatter.match({
   "location": "WorkShopStepDefinitions.iNavigateToWikipediaHomePage()"
 });
 formatter.result({
-  "duration": 238133976,
+  "duration": 485065978,
   "status": "passed"
 });
 formatter.match({
@@ -293,21 +293,21 @@ formatter.match({
   "location": "WorkShopStepDefinitions.iSearchForQuery(String)"
 });
 formatter.result({
-  "duration": 133251106,
+  "duration": 619208223,
   "status": "passed"
 });
 formatter.match({
   "location": "WorkShopStepDefinitions.iMakeTheTestFailToGrabTheScreenshot()"
 });
 formatter.result({
-  "duration": 1001295875,
-  "error_message": "junit.framework.AssertionFailedError: Making fail to take the ScreenShot\r\n\tat junit.framework.Assert.fail(Assert.java:57)\r\n\tat junit.framework.Assert.assertTrue(Assert.java:22)\r\n\tat stepDefinitions.workShopStepDefinition.WorkShopStepDefinitions.iMakeTheTestFailToGrabTheScreenshot(WorkShopStepDefinitions.java:44)\r\n\tat ✽.Then I make the test fail to grab the screenshot(workShopFW/FWtester.feature:12)\r\n",
+  "duration": 318658502,
+  "error_message": "org.openqa.selenium.NoSuchElementException: Unable to find element with id \u003d\u003d firstHeading (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 316 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00272.48.1\u0027, revision: \u0027d80083d8f7b0b0319976ef9712f7a2b531abaceb\u0027, time: \u00272015-10-08 14:16:53\u0027\nSystem info: host: \u0027EPPLKRAW0119\u0027, ip: \u0027192.168.0.17\u0027, os.name: \u0027Windows 7\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.1\u0027, java.version: \u00271.8.0_20\u0027\nDriver info: org.openqa.selenium.ie.InternetExplorerDriver\nCapabilities [{browserAttachTimeout\u003d0, enablePersistentHover\u003dtrue, ie.forceCreateProcessApi\u003dfalse, ie.usePerProcessProxy\u003dfalse, ignoreZoomSetting\u003dtrue, handlesAlerts\u003dtrue, version\u003d11, platform\u003dWINDOWS, nativeEvents\u003dtrue, ie.ensureCleanSession\u003dfalse, elementScrollBehavior\u003d0, ie.browserCommandLineSwitches\u003d, requireWindowFocus\u003dfalse, browserName\u003dinternet explorer, initialBrowserUrl\u003dhttp://localhost:29773/, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, ignoreProtectedModeSettings\u003dtrue, enableElementCacheCleanup\u003dtrue, cssSelectorsEnabled\u003dtrue, unexpectedAlertBehaviour\u003ddismiss}]\nSession ID: ab354042-e401-4616-b913-9dee2bec04e6\n*** Element info: {Using\u003did, value\u003dfirstHeading}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:408)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:403)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:218)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:345)\r\n\tat pageObjects.WikipediaPageObject.titleSearchedItem(WikipediaPageObject.java:21)\r\n\tat stepDefinitions.workShopStepDefinition.WorkShopStepDefinitions.iMakeTheTestFailToGrabTheScreenshot(WorkShopStepDefinitions.java:44)\r\n\tat ✽.Then I make the test fail to grab the screenshot(workShopFW/FWtester.feature:12)\r\n",
   "status": "failed"
 });
 formatter.write("https://en.wikipedia.org/wiki/Azul");
 formatter.embedding("image/png", "embedded2.png");
 formatter.after({
-  "duration": 894116219,
+  "duration": 1542275912,
   "status": "passed"
 });
 });
