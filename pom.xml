@@ -19,8 +19,8 @@
         <selenium_version>2.48.1</selenium_version>
         <junit_version>4.12</junit_version>
         <fireFoxDriver>firefox</fireFoxDriver>
-        <chromeDriverPath>${basedir}\src\main\resources\drivers\chromedriver.exe</chromeDriverPath>
-        <ieDriverPath>${basedir}\src\main\resources\drivers\IEDriverServer.exe</ieDriverPath>
+        <chromeDriverPath>${basedir}\src\main\resources\chromedriver.exe</chromeDriverPath>
+        <ieDriverPath>${basedir}\src\main\resources\IEDriverServer.exe</ieDriverPath>
     </properties>
 
     <build>
