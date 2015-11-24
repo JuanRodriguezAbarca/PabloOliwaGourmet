@@ -38,7 +38,7 @@ public class CukeDriver {
 
     private static WebDriver selectTheBrowser() {
         String theBrowser = System.getProperty("browser");
-        loger.info("Browser selected: "+theBrowser);
+        loger.info("Browser selected: " + theBrowser);
         switch (theBrowser.toLowerCase().trim()) {
             case "firefox":
                 return new FirefoxDriver();
@@ -46,8 +46,8 @@ public class CukeDriver {
                 return new ChromeDriver();
             case "ie":
                 DesiredCapabilities caps = DesiredCapabilities.internetExplorer();
-                caps.setCapability("ignoreZoomSetting",true);
-                return new InternetExplorerDriver();
+                caps.setCapability("ignoreZoomSetting", true);
+                return new InternetExplorerDriver(caps);
             default:
                 throw new ExceptionInInitializerError("Browser selected '" + theBrowser + "' is not recognized");
 
@@ -55,19 +55,19 @@ public class CukeDriver {
     }
 
 
-    public static class BrowserClearup implements Runnable{
-        public void run(){
+    public static class BrowserClearup implements Runnable {
+        public void run() {
             loger.info("Closing the browser...");
             close();
         }
     }
 
-    public static void close(){
-        try{
+    public static void close() {
+        try {
             getTheDriver().quit();
             driver = null;
             loger.info("Closing the browser");
-        } catch (UnreachableBrowserException e){
+        } catch (UnreachableBrowserException e) {
             loger.info("cannot close the browser: unreachable browser");
         }
     }
