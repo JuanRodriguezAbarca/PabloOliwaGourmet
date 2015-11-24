@@ -9,6 +9,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.UnreachableBrowserException;
 
 /**
@@ -44,6 +45,8 @@ public class CukeDriver {
             case "chrome":
                 return new ChromeDriver();
             case "ie":
+                DesiredCapabilities caps = DesiredCapabilities.internetExplorer();
+                caps.setCapability("ignoreZoomSetting",true);
                 return new InternetExplorerDriver();
             default:
                 throw new ExceptionInInitializerError("Browser selected '" + theBrowser + "' is not recognized");
